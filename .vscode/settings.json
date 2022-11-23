@@ -1,5 +1,7 @@
 {
-  "cSpell.words": [
-    "Nuxt"
-  ]
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": true
+  },
+  "cSpell.words": ["Nuxt"]
 }
