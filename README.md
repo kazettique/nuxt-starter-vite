@@ -2,6 +2,8 @@
 
 Nuxt 3 POC created by Vite, with eslint, prettier, tailwind, and more.
 
+中文版請走 👉 [這裡](https://github.com/kazettique/nuxt-starter-vite/blob/main/README.zh-tw.md)
+
 ## Todo List
 
 ### Core (JavaScript, Vue, TypeScript)
