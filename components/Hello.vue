@@ -1,5 +1,6 @@
 <template>
   <div class="text-red-500">HELLO</div>
+  <World />
 </template>
 <script setup lang="ts">
 const year: number = 2022;
