@@ -9,5 +9,9 @@
     "editor.formatOnPaste": true
   },
   "files.eol": "\r\n",
-  "cSpell.words": ["Nuxt", "tailwindcss"]
+  "cSpell.words": [
+    "Nuxt",
+    "pinia",
+    "tailwindcss"
+  ]
 }
