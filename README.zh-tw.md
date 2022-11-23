@@ -19,6 +19,7 @@
 
 - [x] tailwindcss
   - [ ] 自定義漸層色
+  - [x] CSS class 名稱排序（[prettier](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)）
 - [ ] icons
 - [ ] 捲軸樣式
 
@@ -34,6 +35,7 @@
 
 - [ ] 多國語系？
 - [ ] 暗主題？
+- [ ] Git 推送驗證([husky](https://github.com/typicode/husky))
 
 ## 解決方案
 

@@ -21,6 +21,7 @@ Nuxt 3 POC created by Vite, with eslint, prettier, tailwind, and more.
 
 - [x] tailwindcss
   - [ ] custom gradient color
+  - [x] CSS class name sorting with [prettier](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
 - [ ] icons
 - [ ] scrollbar style
 
@@ -36,6 +37,7 @@ Nuxt 3 POC created by Vite, with eslint, prettier, tailwind, and more.
 
 - [ ] i18n?
 - [ ] Dark theme?
+- [ ] Git push validation ([husky](https://github.com/typicode/husky))
 
 ## Solutions
 
