@@ -1,11 +1,12 @@
 {
   "recommendations": [
-    "Vue.volar",
-    "vue.vscode-typescript-vue-plugin",
+    "Vue.volar", // Vue 3 必備插件
+    "vue.vscode-typescript-vue-plugin", // Vue 3 with TypeScript
     "wscats.vue",
     "dbaeumer.vscode-eslint",
     "rvest.vs-code-prettier-eslint",
     "stylelint.vscode-stylelint",
-    "davidanson.vscode-markdownlint"
+    "davidanson.vscode-markdownlint",
+    "streetsidesoftware.code-spell-checker", // spell checker
   ]
 }
