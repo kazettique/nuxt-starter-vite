@@ -21,6 +21,8 @@
     "nuxtjs",
     "pinia",
     "stylelint",
-    "tailwindcss"
+    "tailwindcss",
+    "vetur",
+    "vuejs"
   ]
 }
