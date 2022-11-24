@@ -60,3 +60,7 @@ Ref:
 To sort in CSS class, using prettier-plugin-tailwindcss recommended by [Tailwind official site](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier).
 
 To sort CSS properties in style of component, using [stylelint-order](https://github.com/hudochenkov/stylelint-order) with rules from [stylelint-config-idiomatic-order](https://github.com/ream88/stylelint-config-idiomatic-order)
+
+### Git Validation
+
+- [Husky - Git hooks](https://typicode.github.io/husky/#/)
