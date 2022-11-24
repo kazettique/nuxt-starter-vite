@@ -2,16 +2,16 @@
 export default defineNuxtConfig({
   typescript: {
     typeCheck: true,
-    strict: true
+    strict: true,
   },
   imports: {
-    autoImport: false
+    autoImport: false,
   },
   css: ['~/assets/css/main.css'],
   postcss: {
     plugins: {
       tailwindcss: {},
-      autoprefixer: {}
-    }
-  }
+      autoprefixer: {},
+    },
+  },
 });

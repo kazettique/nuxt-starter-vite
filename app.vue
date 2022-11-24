@@ -3,6 +3,7 @@
     <NuxtWelcome />
     <Hello />
     <World />
+    <JohnDoe />
   </div>
 </template>
 
