@@ -2,16 +2,25 @@
   "editor.tabSize": 2,
   "editor.codeActionsOnSave": {
     "source.fixAll": false,
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true,
+    "source.fixAll.markdownlint": true
   },
   "[markdown]": {
     "editor.formatOnSave": true,
-    "editor.formatOnPaste": true
+    // "editor.formatOnPaste": true
   },
+  "stylelint.validate": [
+    "css",
+    "scss",
+    "vue"
+  ],
   "files.eol": "\r\n",
   "cSpell.words": [
     "Nuxt",
+    "nuxtjs",
     "pinia",
+    "stylelint",
     "tailwindcss"
   ]
 }

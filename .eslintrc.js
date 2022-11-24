@@ -1,12 +1,12 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true
+    es2021: true,
   },
   extends: ['@nuxtjs/eslint-config-typescript', 'plugin:vue/vue3-recommended', 'plugin:prettier/recommended'],
   parserOptions: {
     ecmaVersion: 13,
-    sourceType: 'module'
+    sourceType: 'module',
   },
   plugins: ['prettier'],
   rules: {
@@ -17,8 +17,8 @@ module.exports = {
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'warn',
     'vue/multi-word-component-names': 'off',
-    semi: 'off'
-  }
+    semi: 'off',
+  },
   // overrides: [
   //   {
   //     files: ['**/pages/**/*.{js,ts,vue}', '**/layouts/**/*.{js,ts,vue}', '**/app.{js,ts,vue}', '**/error.{js,ts,vue}'],
