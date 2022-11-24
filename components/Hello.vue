@@ -11,7 +11,7 @@ export interface IProps {
 const year: number = 2022;
 const title: string = `${year} iThome 鐵人賽`;
 const bool: boolean = false;
-const aaa: string = bool ? '123' : '456';
+const aaa: number = bool ? '123' : '456';
 
 const props = withDefaults(defineProps<IProps>(), {
   title: 'Default Title',
