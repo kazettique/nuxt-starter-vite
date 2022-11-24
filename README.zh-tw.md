@@ -22,7 +22,7 @@
   - [x] CSS class 名稱排序（[prettier](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)）
 - [ ] icons
 - [ ] 捲軸樣式
-- [ ] [stylelint](https://stylelint.io)
+- [x] 用 [stylelint](https://stylelint.io) 做 CSS 屬性排序整理
 
 ### 測試（或許）
 
@@ -34,8 +34,9 @@
 
 ### 其他
 
-- [ ] 多國語系？
-- [ ] 暗主題？
+- [ ] 多國語系 i18n
+- [ ] 無障礙 a11y
+- [ ] 暗主題
 - [ ] Git 推送驗證([husky](https://github.com/typicode/husky))
 
 ## 解決方案
@@ -43,3 +44,9 @@
 ### eslint & prettier 設定
 
 - [[Day 04] Nuxt 3 + TypeScript + ESLint + Prettier 環境建置 - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天](https://ithelp.ithome.com.tw/articles/10293758)
+
+### CSS 排序與整理
+
+依 [Tailwind 官網推薦](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)使用 prettier-plugin-tailwindcss 做 CSS class 排序
+
+使用 [stylelint-order](https://github.com/hudochenkov/stylelint-order) 及 [stylelint-config-idiomatic-order](https://github.com/ream88/stylelint-config-idiomatic-order) 規則做 CSS 屬性排序及整理

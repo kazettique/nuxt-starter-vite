@@ -24,7 +24,7 @@ Nuxt 3 POC created by Vite, with eslint, prettier, tailwind, and more.
   - [x] CSS class name sorting
 - [ ] icons
 - [ ] scrollbar style
-- [x] CSS properties with [stylelint](https://stylelint.io)
+- [x] CSS properties sorting with [stylelint](https://stylelint.io)
 
 ### Testing (Maybe)
 
