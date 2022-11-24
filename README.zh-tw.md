@@ -22,6 +22,7 @@
   - [x] CSS class 名稱排序（[prettier](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)）
 - [ ] icons
 - [ ] 捲軸樣式
+- [ ] [stylelint](https://stylelint.io)
 
 ### 測試（或許）
 
