@@ -10,6 +10,6 @@ module.exports = {
     'stylelint-config-idiomatic-order',
   ],
   rules: {
-    "no-empty-source": "null"
+    "no-empty-source": false
   }
 };
