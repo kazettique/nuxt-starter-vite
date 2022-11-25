@@ -8,5 +8,5 @@
 </template>
 
 <script lang="ts">
-const num: number = 123;
+const num: number = '123';
 </script>
