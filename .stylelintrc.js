@@ -9,4 +9,7 @@ module.exports = {
     // 'stylelint-config-clean-order',
     'stylelint-config-idiomatic-order',
   ],
+  rules: {
+    "no-empty-source": false
+  }
 };
