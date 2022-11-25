@@ -16,6 +16,9 @@
     "vue"
   ],
   "files.eol": "\r\n",
+  "files.exclude": {
+    "**/.git": false
+  },
   "cSpell.words": [
     "Nuxt",
     "nuxtjs",
