@@ -8,5 +8,5 @@
 </template>
 
 <script lang="ts">
-import Hello from '@/components/Hello.vue';
+const num: number = 123;
 </script>
