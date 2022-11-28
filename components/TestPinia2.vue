@@ -1,11 +1,11 @@
 <template>
-  <div>current state: {{ counter.n }}</div>
+  <div>current state: {{ counter.count }}</div>
 </template>
 
 <script setup lang="ts">
-import { useCounter } from '@/stores/counter';
+import { useCounterStore } from '@/stores/counter';
 
-const counter = useCounter();
+const counter = useCounterStore();
 </script>
 
 <style scoped></style>

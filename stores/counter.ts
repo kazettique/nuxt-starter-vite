@@ -1,60 +1,16 @@
-import { acceptHMRUpdate, defineStore } from 'pinia';
+import { defineStore } from 'pinia';
+import { computed, ref } from 'vue';
 
-const delay = (t: number) => new Promise((r) => setTimeout(r, t));
+export const useCounterStore = defineStore('counter', () => {
+  // store, state
+  const count = ref(0);
 
-export const useCounter = defineStore('counter', {
-  state: () => ({
-    n: 2,
-    incrementedTimes: 0,
-    decrementedTimes: 0,
-    numbers: [] as number[],
-  }),
+  // actions
+  const increment = () => count.value++;
+  const decrement = () => count.value--;
 
-  getters: {
-    double: (state) => state.n * 2,
-  },
+  // computed, getter
+  const squareCount = computed(() => count.value ** 2);
 
-  actions: {
-    increment(amount = 1) {
-      this.incrementedTimes++;
-      this.n += amount;
-    },
-
-    decrement(amount = 1) {
-      this.decrementedTimes--;
-      this.n -= amount;
-    },
-
-    changeMe() {
-      console.log('change me to test HMR');
-    },
-
-    async fail() {
-      const n = this.n;
-      await delay(1000);
-      this.numbers.push(n);
-      await delay(1000);
-      if (this.n !== n) {
-        throw new Error('Someone changed n!');
-      }
-
-      return n;
-    },
-
-    async decrementToZero(interval: number = 300) {
-      if (this.n <= 0) return;
-
-      while (this.n > 0) {
-        this.$patch((state) => {
-          state.n--;
-          state.decrementedTimes++;
-        });
-        await delay(interval);
-      }
-    },
-  },
+  return { count, increment, decrement, squareCount };
 });
-
-if (import.meta.hot) {
-  import.meta.hot.accept(acceptHMRUpdate(useCounter, import.meta.hot));
-}
