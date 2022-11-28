@@ -1,12 +1,14 @@
 <template>
   <div>
-    <NuxtWelcome />
+    <!-- <NuxtWelcome /> -->
     <Hello />
-    <World />
-    <JohnDoe />
+    <!-- <World /> -->
+    <!-- <JohnDoe /> -->
+    <TestPinia />
+    <TestPinia2 />
   </div>
 </template>
 
 <script lang="ts">
-const num: number = 123;
+import TestPinia from './components/TestPinia.vue';
 </script>

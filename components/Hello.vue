@@ -3,6 +3,8 @@
   <World />
 </template>
 <script setup lang="ts">
+import World from './World.vue';
+
 export interface IProps {
   title: string;
   initialValue?: number;
