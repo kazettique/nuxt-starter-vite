@@ -64,3 +64,4 @@ To sort CSS properties in style of component, using [stylelint-order](https://gi
 ### Git Validation
 
 - [Husky - Git hooks](https://typicode.github.io/husky/#/)
+- [Using Husky git hooks with GitKraken - DEV Community 👩‍💻👨‍💻](https://dev.to/perenstrom/using-husky-git-hooks-with-gitkraken-3mf2)

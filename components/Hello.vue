@@ -17,7 +17,7 @@ const props = withDefaults(defineProps<IProps>(), {
   initialValue: 0,
 });
 </script>
-<style scoped lang="scss">
+<style scoped>
 .test {
   position: absolute;
   top: -10px;

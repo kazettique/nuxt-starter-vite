@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   typescript: {
     typeCheck: true,
     strict: true,
+    shim: false,
   },
   imports: {
     autoImport: false,
