@@ -1,7 +1,7 @@
 {
   "editor.tabSize": 2,
   "editor.codeActionsOnSave": {
-    "source.fixAll": false,
+    "source.fixAll": true,
     "source.fixAll.eslint": true,
     "source.fixAll.stylelint": true,
     "source.fixAll.markdownlint": true
@@ -15,7 +15,7 @@
     "scss",
     "vue"
   ],
-  "files.eol": "\r\n",
+  "files.eol": "\n",
   "files.exclude": {
     "**/.git": false
   },

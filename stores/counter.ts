@@ -3,14 +3,16 @@ import { computed, ref } from 'vue';
 
 export const useCounterStore = defineStore('counter', () => {
   // store, state
-  const count = ref(0);
+  const _counter = ref<number>(0);
 
   // actions
-  const increment = () => count.value++;
-  const decrement = () => count.value--;
+  const increment = () => _counter.value++;
+  const decrement = () => _counter.value--;
+  const updateCounter = (newValue: number) => (_counter.value = newValue);
 
   // computed, getter
-  const squareCount = computed(() => count.value ** 2);
+  const squareCount = computed(() => _counter.value ** 2);
+  const getCounter = computed<number>(() => _counter.value);
 
-  return { count, increment, decrement, squareCount };
+  return { increment, decrement, squareCount, updateCounter, getCounter };
 });

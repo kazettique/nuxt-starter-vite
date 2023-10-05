@@ -4,6 +4,12 @@ export default defineNuxtConfig({
     typeCheck: true,
     strict: true,
     shim: false,
+    tsConfig: {
+      compilerOptions: {
+        strict: true,
+        types: ['@pinia/nuxt', '@types/doubleclick-gpt'],
+      },
+    },
   },
   imports: {
     autoImport: false,
@@ -16,4 +22,8 @@ export default defineNuxtConfig({
     },
   },
   modules: ['@pinia/nuxt'],
+
+  routeRules: {
+    '/home': { ssr: true },
+  },
 });

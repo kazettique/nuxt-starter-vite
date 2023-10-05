@@ -1,5 +1,5 @@
 <template>
-  <div>current state: {{ counter.count }}</div>
+  <div>current state: {{ counter.getCounter }}</div>
 </template>
 
 <script setup lang="ts">
